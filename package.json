@@ -1,5 +1,5 @@
 {
-  "name": "coffee-react",
+  "name": "coffee-react-void",
   "description": "Coffeescript compiler wrapper adding coffee-react-transform CJSX support",
   "keywords": [
     "coffeescript",
@@ -8,7 +8,7 @@
     "cjsx",
     "coffee-react"
   ],
-  "author": "James Friend",
+  "author": "Dmitry Maganov <vonagam@gmail.com>",
   "version": "4.0.0",
   "licenses": [
     {
@@ -23,21 +23,22 @@
   ],
   "main": "./lib/coffee-react-script",
   "bin": {
-    "cjsx": "./bin/cjsx"
+    "cjsx-void": "./bin/cjsx"
   },
   "scripts": {
     "prepublish": "cake build",
     "test": "tap test/*.coffee"
   },
-  "homepage": "https://github.com/jsdf/coffee-react",
-  "bugs": "https://github.com/jsdf/coffee-react/issues",
+  "homepage": "https://github.com/coffee-void/coffee-react",
+  "bugs": "https://github.com/coffee-void/coffee-react/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsdf/coffee-react.git"
+    "url": "git://github.com/coffee-void/coffee-react.git"
   },
   "dependencies": {
     "coffee-react-transform": "^3.1.0",
     "coffee-script": "^1.9.1",
+    "coffee-script-void": "^1.10.0",
     "mkdirp": "^0.5.0",
     "react-tools": "^0.13.3",
     "jstransform": "^10.1.0"

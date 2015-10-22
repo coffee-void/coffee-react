@@ -5,7 +5,7 @@ transform = require 'coffee-react-transform'
 
 helpers = require './helpers'
 
-CoffeeScript = require 'coffee-script/lib/coffee-script/coffee-script'
+CoffeeScript = require 'coffee-script-void/lib/coffee-script/coffee-script'
 
 jsSyntaxTransform = require './js-syntax-transform'
 
